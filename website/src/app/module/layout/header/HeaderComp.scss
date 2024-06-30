@@ -1,0 +1,34 @@
+.header-top {
+  background-color: rgb(57, 72, 104);
+  color: white;
+  height: 52px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form_search {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding-right: 40px; /* Adjust padding to prevent text overlap */
+}
+
+.btn-search {
+  position: absolute;
+  right: 10px; /* Adjust position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+
+.btn-search i {
+  font-size: 1.2em; /* Adjust icon size as needed */
+  color: #333; /* Adjust color as needed */
+}
